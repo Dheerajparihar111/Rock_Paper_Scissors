@@ -10,7 +10,13 @@ if choice == 1 and computer_choice == "scissors":
     print("you win")
 elif choice == 2 and computer_choice == "rock":
     print("you win")
-elif choice == 3 and computer_choice == "paper":
+elif  choice == 3 and computer_choice == "paper":
     print("you win")
+elif choice == 1 and computer_choice == "rock":
+    print("it`s a draw")
+elif choice == 2 and computer_choice == "paper":
+    print("it`s a draw")
+elif choice == 3 and computer_choice == "scissors":
+    print("it`s a draw")
 else:
     print("Python Win")
