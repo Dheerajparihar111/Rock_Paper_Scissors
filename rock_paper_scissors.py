@@ -1,9 +1,17 @@
 import random
+from enum import Enum
+
+
+class RPS(Enum):
+    rock = 1
+    paper = 2
+    scissors = 3
+
 print("welcome to rock paper and scissors")
 choices = input("1. rock\n2. paper\n3. scissors\n ")
 choice = int(choices)
 computer_choice = random.choice(["rock", "paper", "scissors"])
-print("you chose",choice)
+print("you chose "+str(RPS(choice)).replace("RPS.rock", "rock ").replace("RPS.paper", "paper ").replace("RPS.scissors", "scissors"))
 print("python chose",computer_choice)
 
 if choice == 1 and computer_choice == "scissors":
