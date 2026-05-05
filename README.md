@@ -1,69 +1,126 @@
 🎮 Rock Paper Scissors (Python CLI Game)
 
-A simple and interactive command-line implementation of the classic Rock, Paper, Scissors game built using Python. This project demonstrates basic programming concepts such as user input handling, conditionals, enums, and randomization.
 
-📌 Features
-🧠 Play against the computer (random choice logic)
-🎯 Simple and intuitive CLI interface
-🔢 Input validation for user choices
-🎲 Randomized computer moves using random module
-🏆 Game result detection (Win / Lose / Draw)
-🧩 Uses Python Enum for structured representation
+
+
+
+
+
+
+
+
+A clean and interactive Command-Line Rock, Paper, Scissors Game built with Python.
+This project demonstrates core programming fundamentals with a polished user experience.
+
+📸 Screenshots
+Gameplay Start	Result Example
+
+	
+✨ Features
+
+🎯 Simple CLI-based gameplay
+
+🤖 Play against computer (randomized moves)
+
+🔢 Input validation (prevents invalid choices)
+
+🧠 Uses Enum for structured logic
+
+🎲 Random module integration
+
+🏆 Clear win / lose / draw results
+
+🎨 Emoji-enhanced UI for better experience
+
 🛠️ Tech Stack
-Language: Python 3
-Libraries Used:
-random (for computer move generation)
-enum (for defining game choices)
-sys (for exiting on invalid input)
-📂 Project Structure
-Rock_Paper_Scissors/
-│
-├── main.py        # Main game logic
-└── README.md      # Project documentation
-🚀 How to Run
 
-Clone the repository:
+Language: Python 3
+
+Libraries:
+
+random
+
+enum
+
+sys
+
+
+⚡ Installation & Usage
+
+1️⃣ Clone Repository
 
 git clone https://github.com/your-username/Rock_Paper_Scissors.git
 
-Navigate to the project folder:
+2️⃣ Navigate to Folder
 
 cd Rock_Paper_Scissors
 
-Run the script:
+3️⃣ Run the Game
 
 python main.py
+
 🎮 How to Play
-Run the program.
-
-Choose your move:
-
 1. rock 🪨
 2. paper 📄
 3. scissors ✂️
-The computer will randomly select its move.
-The result will be displayed:
-🎊 You Win
-🤝 Draw
-🐍 Python Wins
-⚙️ Game Logic
-Rock beats Scissors
-Paper beats Rock
-Scissors beats Paper
-Same choices result in a draw
-⚠️ Input Validation
-Only accepts values between 1 and 3
-Invalid input will terminate the program with a message
-💡 Future Improvements
-Add multiple rounds / score tracking
-Implement GUI version (Tkinter or Web-based)
-Add sound effects or animations
-Improve code modularity (functions/classes)
+   
+Enter a number (1–3)
+
+Computer chooses randomly
+
+Result is displayed instantly
+
+🧠 Game Logic
+
+|Player	       |             Computer	        |       Result |
+
+|Rock	          |                  Scissors	        |           Win |
+
+|Paper	| Rock	| Win |
+
+| Scissors	 | Paper	| Win |
+
+| Same	| Same	| Draw |
+
+⚠️ Validation
+
+Accepts only inputs between 1–3
+
+Invalid input → program exits with message
+
+🔥 Future Enhancements
+
+🎯 Multi-round gameplay with scoring
+
+🖥️ GUI version (Tkinter / PyQt)
+
+🌐 Web version (Flask / React)
+
+🔊 Sound effects & animations
+
+📊 Leaderboard system
+
+🤝 Contributing
+
+Contributions are welcome!
+
+fork → clone → commit → push → pull request
 📜 License
 
-This project is open-source and available under the MIT License.
+This project is licensed under the MIT License.
 
 👨‍💻 Author
 
 Dheeraj Parihar
-Aspiring Entrepreneur | Electronics & Telecommunications Engineer
+🚀 Aspiring Entrepreneur | Electronics & Telecommunications Engineer
+
+⭐ Support
+
+If you like this project:
+
+⭐ Star the repo
+
+🍴 Fork it
+
+🧠 Share feedback
+
