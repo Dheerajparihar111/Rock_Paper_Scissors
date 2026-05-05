@@ -12,7 +12,9 @@ class RPS(Enum):
 print("welcome to rock paper and scissors")
 choices = input("1. rock🪨\n2. paper📄\n3. scissors✂️\n ")
 choice = int(choices)
-
+if choice < 1 or choice > 3:
+    sys.exit("please choose between 1 and 3")
+    
 computer_choice = random.choice(["rock 🪨", "paper 📄", "scissors ✂️"])
 print("you chose "+str(RPS(choice)).replace("RPS.rock", "rock 🪨").replace("RPS.paper", "paper 📄").replace("RPS.scissors", "scissors ✂️"))
 print("python chose",computer_choice)
