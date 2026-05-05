@@ -14,6 +14,7 @@ This project demonstrates core programming fundamentals with a polished user exp
 
 📸 Screenshots
 Gameplay Start	Result Example
+<img width="1827" height="930" alt="image" src="https://github.com/user-attachments/assets/a42897f8-013b-4598-ad63-7e68cd9fe0bf" />
 
 	
 ✨ Features
