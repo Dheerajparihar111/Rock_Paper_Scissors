@@ -49,7 +49,7 @@ sys
 
 1️⃣ Clone Repository
 
-git clone https://github.com/your-username/Rock_Paper_Scissors.git
+https://github.com/Dheerajparihar111/Rock_Paper_Scissors
 
 2️⃣ Navigate to Folder
 
